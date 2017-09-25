@@ -1,0 +1,207 @@
+/*------NAVBAR------*/
+.navbar{
+    background-color: #102C34;
+}
+.navbar-brand{
+    color: white;
+    font-size:26px;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color:#657C83;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+    background-color: #476269;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: grey;
+}
+.navbar-default .navbar-nav > li:hover {
+    background-color:white;
+    -webkit-transition: background-color 1s; /* Safari */
+    transition: background-color 1s;
+}
+/*-----ABOUT-----*/
+#about{
+    background-color: #657C83;
+    padding-bottom: 15px;
+}
+#about h1{
+    text-align: center;
+    font-size: 48px;
+    color: aliceblue;
+}
+#about h2{
+    text-align: justify;
+    font-size: 28px;
+    color: white;
+}
+#about p{
+    font-family: serif;
+    text-align: justify;
+    font-size: 18px;
+    color: white;
+}
+/*-----PROJECTS-----*/
+#project{
+    padding-bottom: 30px;
+}
+
+#project h1{
+    text-align: center;
+    font-size: 48px;
+}
+#project h2{
+    text-align: center;
+    font-size: 17px;
+}
+
+#project .image{
+    padding-top: 20px;
+}
+
+#project div:nth-child(2n){
+    border-right: dotted 2px;
+}
+
+#project div:nth-child(2){
+    border-bottom: dotted 2px; 
+}
+
+#project div:nth-child(3){
+    border-bottom: dotted 2px;
+    margin-top: -1px;
+}
+/*------FOOTER-----*/
+#myFooter {
+    background-color: #102C34;
+    color: white;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    
+}
+
+#myFooter .logo{
+    margin-top:0px;
+}
+
+#myFooter .second-bar .logo a{
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    margin-left:10px;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #102C34;
+    text-align: center;
+}
+
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #657C83;
+    padding: 10px;
+    transition: 0.2s;
+    line-height:5px;
+}
+
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+
+#myFooter .social-icons {
+    float:right;
+    margin-top:-10px;
+}
+
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+/*-------MODAL BOX ---------*/
+.modal-header{
+    background-color: #102C34;
+    color: white;
+}
+.modal-footer{
+    background-color: #102C34;
+    color: white;
+}
+.
+button{
+    background-color: #102C34;
+    padding: 10px;
+    border-radius:10px;
+}
+
+/*----- media query----*/
+@media only screen and (max-width: 720px) {
+    #jumbo {
+        margin-top: 13%;
+    }
+    h1{
+        font-size: 32px;
+    }
+    #about h2{
+        font-size: 24px;
+        text-align: justify;
+        padding: 10px;
+    }
+     #about p{
+        font-size: 18px;
+        text-align: justify;
+        padding: 10px;
+    }
+    #project div{
+        border-right: none!important;
+    }
+    #project div:nth-child(4){
+    border-bottom: dotted 2px;
+    }
+    
+}
+@media only screen and (max-width: 3020px) {
+    button{
+    background-color: #102C34;
+    padding: 10px;
+    border-radius:10px;
+    }
+    button:hover{
+    background-color: #657C83;
+    }
+
+    
+}
+
+

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cristian Rivera</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!--- Beginning of Navbar --->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="index.html" style="color: white;">CR</a>
+            </div>
+            <div class="navbar-right collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="margin-top:5%;"> <!--- jumbotron Image --->
+        <img class="img-responsive" src="images/JumbotronImage.jpg" id="jumbo">
+    </div>
+    <div class="row" id="about">
+        <div class="col-sm-8 col-sm-offset-2">
+            <h1 class="">About Me</h1>
+            <h2>Hi there, my name is Cristian Rivera. I am a programmer in Web-Design and Development.</h2>
+            <p>Currently, in my programming skill, I'm an intermediate in HTML, Bootstrap, and CSS.A beginner in Java Script. Welcome to my website, this is where I'm going to show you all of my work I did to show off my skill and what I can do with these programming languages that I have learned.Also, I will keep enhancing my knowledge on programming.Thank you for visiting my website.</p>
+        </div>
+    </div>
+    <div class="row" id="project">
+        <div class="col-sm-8 col-sm-offset-2">
+            <h1>Projects</h1>
+            <div class="col-sm-6 image">
+                <!-- Trigger the modal with a button -->
+                <button type="button" data-toggle="modal" data-target="#phoenix">
+                    <img src="images/phoenix/phonixthumbnail.jpg" class="img-responsive img-thumbnail">
+                </button>
+                <h2>Phoenix Website</h2>
+            </div>
+        
+            <div class="col-sm-6  image">
+                <button type="button" data-toggle="modal" data-target="#upcomingGames">
+                    <img src="images/upcomingGames/UpcomingGameThumbnail.jpg" class="img-responsive img-thumbnail">
+                </button>
+                <h2>Upcoming Games Website</h2>
+            </div>
+            <div class="col-sm-6 image">
+                <button type="button" data-toggle="modal" data-target="#exercise">
+                    <img src="images/excercise/ExcerciseThumbnail.jpg" class="img-responsive img-thumbnail">
+                </button>
+                <h2>Exercise Website</h2>
+            </div>
+            <div class="col-sm-6 image">
+                <button type="button" data-toggle="modal" data-target="#wifredo">
+                    <img src="images/wifredoLam/WifredoLamThumbnail.jpg" class="img-responsive img-thumbnail">
+                </button>
+                <h2>Upcoming Games Website</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <!-- Phoenix Modal -->
+    <div class="modal fade" id="phoenix" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Phoenix Website</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/phoenix/phonixthumbnail.jpg" alt="Phoenix Men" style="width:100%;">
+                                <div class="carousel-caption">
+                                    <h3>Men Page</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/phoenix/phoenixImg2.jpg" alt="Phoenix Home" style="width:100%;">
+                                <div class="carousel-caption">
+                                    <h3>Home Page</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/phoenix/phoenixImg3.jpg" alt="Phoenix Women" style="width:100%;">
+                                <div class="carousel-caption">
+                                    <h3>Women Page</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <p style="font-family: serif">This website I will be making is for client who want a clothing store online called “Phoenix” which
+                        stand for renewed youth and it for men and women. This client wants me to show the audience what 
+                        they sell for young adults and teenager. The new clothing their making  for the young adults.The
+                        goal for this website is to show what clothing the store sell. Show the clothing they have and to 
+                        attract more young adults customers to buy the new clothing  phoenix makes. Also to let customer to 
+                        start ordering online. 
+                    </p>
+                    <a href="http://mmp.bmcc.cuny.edu/cristian.rivera/final/about.html" target="_blank">
+                        <p>http://mmp.bmcc.cuny.edu/cristian.rivera/final/about.html</p>
+                    </a>
+                    <h3 style="text-align: center">About Phoenix</h3>
+                    <p style="font-family: serif">I chose to name my brand phoenix , because just like the mythical creature it means rebirth of the
+                        youth and thats exactly who we target , young adults. This brand started on December 2015 and is
+                        only online at the momment . We in the phoenix company hope to expand our company to open up shops 
+                        around your area so that many more get to enjoy. We hope you enjoy your phoenix clothing and thank
+                        you.
+                    </p>
+                    <h3 style="text-align: center">Pre-Work</h3>
+                    <p style="font-family: serif">This is all the wireframe for the website and the site map.</p>
+                    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel2" data-slide-to="1"></li>
+                            <li data-target="#myCarousel2" data-slide-to="2"></li>
+                            <li data-target="#myCarousel2" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/phoenix/pre-work/phoenixhomePre-work.jpg" alt="Phoenix home" style="width:100%;">
+                            </div>
+                            <div class="item">
+                                <img src="images/phoenix/pre-work/phoenixmenPre-work.jpg" alt="Phoenix men/women" style="width:100%;">
+                            </div>
+                            <div class="item">
+                                <img src="images/phoenix/pre-work/phoenixaboutPre-work.jpg" alt="Phoenix about" style="width:100%;">
+                            </div>
+                            <div class="item">
+                                <img src="images/phoenix/pre-work/site-map.jpg" alt="Phoenix about" style="width:100%;">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Upcoming Games Modal -->
+    <div class="modal fade" id="upcomingGames" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Upcoming Games Website</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Exercise Modal -->
+    <div class="modal fade" id="exercise" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Exercise Website</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+                            </div>
+                            <div class="item">
+                                <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+                            </div>
+                            <div class="item">
+                                <img src="ny.jpg" alt="New york" style="width:100%;">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Wifredo Lam Modal -->
+    <div class="modal fade" id="wifredo" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Wifredo Lam Website</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---Footer--->
+    <footer id="myFooter">
+        <div class="second-bar">
+                <h2 class="logo"><a href="index.html"> CR </a></h2>
+                <div class="social-icons">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>
